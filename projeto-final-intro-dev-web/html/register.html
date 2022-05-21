@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/register.css">
+        <title>Criar Conta</title>
+    </head>
+    <body>
+        <div class="container-left">
+            <img src="../images/land-photo.jpg" alt="CheckList" id="landPhoto">
+        </div>
+        <div class="container-right">
+            <h1 id="land-title">Cadastre-se e comece a utilizar o sistema!</h1>
+            <form id="register-form">
+                <table>
+                    <tr>
+                        <td>
+                            <label>Login:</label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Digite seu login" class="login">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Senha:</label>
+                        </td>
+                        <td>
+                            <input type="password" placeholder="Digite seu senha" class="password">
+                        </td>
+                    </tr>
+                </table>
+                <button id="btn-register" onclick="registerUser()">Cadastrar</button>
+            </form>
+            <p>
+                Já se cadastrou?
+                <a href="./index.html">Volte a página de login</a>
+            </p>
+        </div>
+        <script src="../scripts/register.js"></script>
+    </body>
+</html>
